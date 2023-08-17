@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "solc": "^0.8.21"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.1",
+    "web.js": "^1.0.1",
+    "web3": "^4.0.3"
+  }
+}

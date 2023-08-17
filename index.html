@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Decentralized Event Management</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+</head>
+<body>
+  <h1>Decentralized Event Management</h1>
+  
+  <h2>Create Event</h2>
+  <form id="createEventForm">
+    <label for="eventName">Event Name:</label>
+    <input type="text" id="eventName" required><br>
+    
+    <label for="eventDate">Event Date:</label>
+    <input type="datetime-local" id="eventDate" required><br>
+    
+    <label for="ticketPrice">Ticket Price (ETH):</label>
+    <input type="number" step="0.01" id="ticketPrice" required><br>
+    
+    <label for="ticketCount">Total Tickets:</label>
+    <input type="number" id="ticketCount" required><br>
+    
+    <button type="button" onclick="createEvent()">Create Event</button>
+  </form>
+  
+  <h2>Events</h2>
+  <ul id="eventsList"></ul>
+  
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
